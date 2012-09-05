@@ -14,10 +14,25 @@ Product.delete_all
 #deleteなのにinsertじゃない不思議
 Product.create(title: 'Logicool G13 Advanced Gameboard',
   description: 
-    %{<p>
-      左手用ゲーミングマウス。マクロ登録により、様々なゲームで
-      高度なテクニックを実現可能にする。
-    </p>},
-  image_url: 'ruby.jpg',
-  price: 59.99)
+    %{左手用ゲーミングマウス。ゲーム1つにつき、1回のキーストロークから
+複雑なマクロまで最大87個を設定可能。プレイ中に新しいマクロを記録
+することもできる。好みに合わせてバックライトの色を設定し、
+コンピュータやゲームでバイスにあわせてゲームボードをカスタマイズ
+することができる。
+},
+  image_url: 'g13mouse.png',
+  price: 9890)
+Product.create(title: 'Razer naga',
+  description:
+    %{極の多人数参加型オンライン（MMO）ゲーミングマウスです。このマウスの持つ、前例のないほど多数のボタンへ、ゲーム内で使用できるコマンドを配置することにより、キーボードとマウスの境界線を超越します。
+サムグリッドのマルチボタンと、 Razer の MMO ゲームインターフェースアドオンが結合し、手のひらの内に必要なすべてのコマンドを収めます。
+最大限に扱いやすくする為に形成された、人間工学に基づく本体形状によって、何時間も連続して快適にプレイができます。Razer Naga を使うと不公平なくらい強く（Imba）なる可能性があります。},
+  image_url: 'razer_naga.png',
+  price: 8400)
+Product.create(title: 'Cyborg R.A.T. 7',
+  description:
+    %{3カ所の稼動部品に11個のボタン、2個のホイールを備えたハイエンドマウス「Cyborg M.M.O.7 Gaming Mouse」。その名の通りゲーマー用に開発された製品で、高い解像度や複数ボタンへの機能割り当てなどゲーム以外にも役立ちそうな機能が盛りだくさん。
+    },
+  image_url: 'cyborg_rat3.png',
+  price: 12800)
 
