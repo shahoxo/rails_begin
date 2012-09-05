@@ -1,4 +1,8 @@
 Depot::Application.routes.draw do
+  get "store/index"
+
+  get "store/indnex"
+
   resources :products
 
   # The priority is based upon order of creation:
