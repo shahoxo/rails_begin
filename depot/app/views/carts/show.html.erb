@@ -14,12 +14,15 @@
 			<td>=</td>
 			<td class="item_price "><%= number_to_currency(item.total_price, unit: "&yen;",
 				precision: 0, format: "%u %n") %></td>
+			<td><%= button_to '削除', @cart.line_items.find(item.id), method: :delete,
+			 	confirm: "#{Product.find(item.product_id).title}をカートから削除します" %></td>
 		</tr>
 	<% end %>
 	<tr class="total_line">
 		<td colspan="5">合計</td>
 		<td class="total_cell"><%= number_to_currency(@cart.total_price, unit: "&yen;",
 			precision: 0, format: "%u %n") %></td>
+		<td></td>
 	</tr>
 </table>
 
