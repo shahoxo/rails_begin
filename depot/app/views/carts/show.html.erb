@@ -2,22 +2,9 @@
 <p id="notice"><%= notice %></p>
 <% end %>
 
-<h2>GamingMouseカート</h2>
+<div class="cart_title">カート</div>
 <table>
-	<% @cart.line_items.each do |item|%>
-		<tr>
-			<td><%= item.product.title %></td>
-			<td class="item_price">(<%= number_to_currency(item.product.price, unit: "&yen;",
-			 	precision: 0, format: "%u %n") %>)</td>
-			<td class="times_sign">&times;</td>
-			<td class="item_quantity"><%= item.quantity %></td>
-			<td>=</td>
-			<td class="item_price "><%= number_to_currency(item.total_price, unit: "&yen;",
-				precision: 0, format: "%u %n") %></td>
-			<td><%= button_to '削除', @cart.line_items.find(item.id), method: :delete,
-			 	confirm: "#{Product.find(item.product_id).title}をカートから削除します" %></td>
-		</tr>
-	<% end %>
+	<%= render(@cart.line_items) %>
 	<tr class="total_line">
 		<td colspan="5">合計</td>
 		<td class="total_cell"><%= number_to_currency(@cart.total_price, unit: "&yen;",
