@@ -1,12 +1,12 @@
 <tr>
 	<td><%= line_item.product.title %></td>
-	<td class="item_price">(<%= number_to_currency(line_item.product.price, unit: "&yen;",
-	 	precision: 0, format: "%u %n") %>)</td>
+	<td class="item_price"><%= number_to_currency(line_item.product.price, unit: "&yen;",
+	 	precision: 0, format: "%u%n") %></td>
 	<td class="times_sign">&times;</td>
 	<td class="item_quantity"><%= line_item.quantity %></td>
 	<td>=</td>
 	<td class="item_price "><%= number_to_currency(line_item.total_price, unit: "&yen;",
-		precision: 0, format: "%u %n") %></td>
+		precision: 0, format: "%u%n") %></td>
 	<td><%= button_to '削除', @cart.line_items.find(line_item.id), method: :delete,
 	 	confirm: "#{Product.find(line_item.product_id).title}をカートから削除します" %></td>
 </tr>
