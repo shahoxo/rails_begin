@@ -1,7 +1,3 @@
-<% if notice %>
-<p id="notice"><%= notice %></p>
-<% end %>
-
 <div class="cart_title">カート</div>
 <table>
 	<%= render(cart.line_items) %>
@@ -13,4 +9,5 @@
 	</tr>
 </table>
 
+<%= button_to 'チェックアウト', new_order_path, method: :get %>
 <%= button_to 'カートを空にする', cart, method: :delete, confirm: '本当によいですか？' %>
