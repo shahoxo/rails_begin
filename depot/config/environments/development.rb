@@ -16,6 +16,19 @@ Depot::Application.configure do
   # Don't care if the mailer can't send
   config.action_mailer.raise_delivery_errors = false
 
+  # default setting at development mode
+  config.action_mailer.delivery_method = :smtp
+  
+  config.action_mailer.smtp_settings = {
+    address:    "smtp.gmail.com",
+    port:       587,
+    domain:     "domain.of.sender.net",
+    authentication: "plain",
+    user_nme:   "dave",
+    password:   "secret",
+    enable_starttls_auto: true
+  }
+
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log
 
