@@ -1,6 +1,7 @@
 # encoding: utf-8
 
 class LineItemsController < ApplicationController
+  skip_before_filter :authorize, only: [:new, :create]
   # GET /line_items
   # GET /line_items.json
   def index

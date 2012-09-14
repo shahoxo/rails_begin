@@ -1,3 +1,4 @@
+# encoding: utf-8
 class UsersController < ApplicationController
   # GET /users
   # GET /users.json
@@ -44,7 +45,7 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
-        format.html { redirect_to users_url, notice: 'ユーザ#{@user.name}を作成しました' }
+        format.html { redirect_to users_url, notice: "ユーザ#{@user.name}を作成しました" }
         format.json { render json: @user, status: :created, location: @user }
       else
         format.html { render action: "new" }
