@@ -1,3 +1,8 @@
-class
-  # To change this template use File | Settings | File Templates.
-end
+# encoding: utf-8
+I18n.default_locale = :jp
+
+LANGUAGES = [
+    ['Japanese',    'jp'],
+    ["Espa&ntilde;ol".html_safe, 'es'],
+    ['English',     'en']
+]

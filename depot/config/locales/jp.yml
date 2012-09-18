@@ -1,0 +1,9 @@
+jp:
+
+  layouts:
+    application:
+      title:            "Gaming Mouse Show Window"
+      home:             "ホーム"
+      questions:        "Q&A"
+      news:             "ニュース"
+      contact:          "お問い合わせ"

@@ -1,0 +1,9 @@
+es:
+
+  layouts:
+    application:
+      title:            "Gaming Mouse Show Window"
+      home:             "Inicio"
+      questions:        "Preguntas"
+      news:             "Noticias"
+      contact:          "Contacto"
