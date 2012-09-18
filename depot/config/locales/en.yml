@@ -11,3 +11,49 @@ en:
       news:       "News"
       contact:    "Contact"
 
+  store:
+    index:
+      title_html: "Your Gaming Mouse Catalog"
+      add_html:   "Add to Cart"
+
+  carts:
+    cart:
+      title:    "Your Cart"
+      empty:    "Empty Cart"
+      checkout: "Checkout"
+      confirm_html:  "Are you sure?"
+
+  number:
+    currency:
+      format:
+        unit:       "JPY"
+        precision:  "0"
+        separator:  "."
+        delimiter:  ","
+        format:     "%u%n"
+
+  orders:
+    new:
+      legend:     "Please Enter Your Details"
+    form:
+      name:       "Name"
+      address_html: "Address"
+      email:      "E-mail"
+      pay_type:   "Pay with"
+      pay_prompt_html:  "Select a payment method"
+      submit:     "Place Order"
+
+  errors:
+    template:
+      body:         "There are problems with the following fields："
+      header:
+        one:        "1 error prohibited this %{model} from being saved:"
+        other:      "%{count} errors prohibited this %{model} from being saved:"
+
+
+
+
+
+
+
+

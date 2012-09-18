@@ -7,3 +7,56 @@ jp:
       questions:        "Q&A"
       news:             "ニュース"
       contact:          "お問い合わせ"
+
+  store:
+    index:
+      title_html:  "Gaming Mouse カタログ"
+      add_html:    "カートに入れる"
+
+  carts:
+    cart:
+      title:    "カート"
+      empty:    "カートを空にする"
+      checkout: "会計"
+      confirm_html:  "本当によろしいでしょうか？"
+
+  number:
+    currency:
+      format:
+        unit:       "&yen;"
+        precision:  "0"
+        separator:  "."
+        delimiter:  ","
+        format:     "%u%n"
+
+  orders:
+    new:
+      legend:     "お客様の情報を入力して下さい"
+    form:
+      name:       "お名前"
+      address_html: "ご住所"
+      email:      "メール"
+      pay_type:   "お支払い"
+      pay_prompt_html:  "お支払い方法を選択してください"
+      submit:     "注文する"
+
+  activerecord:
+    models:
+      order:        "ご注文"
+    attribute:
+      order:
+        address:    "ご住所"
+        name:       "お名前"
+        email:      "メール"
+        pay_type:   "お支払い"
+    attributes:
+    errors:
+      messages:
+        inclusion:  "が選択されていません。"
+        blank:      "は、入力必須項目です。"
+  errors:
+    template:
+      body:         "以下のフィールドに問題があります："
+      header:
+        one:        "%{model}に、1箇所の入力エラーがあります。"
+        other:      "%{model}に、%{count}箇所の入力エラーがあります。"

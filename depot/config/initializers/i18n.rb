@@ -1,5 +1,5 @@
 # encoding: utf-8
-I18n.default_locale = :jp
+I18n.default_locale = :en
 
 LANGUAGES = [
     ['Japanese',    'jp'],
