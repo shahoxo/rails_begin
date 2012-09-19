@@ -7,6 +7,10 @@ jp:
       questions:        "Q&A"
       news:             "ニュース"
       contact:          "お問い合わせ"
+      order:            "注文"
+      line_item:        "商品"
+      user:             "ユーザ"
+      logout:           "ログアウト"
 
   store:
     index:
@@ -19,6 +23,9 @@ jp:
       empty:    "カートを空にする"
       checkout: "会計"
       confirm_html:  "本当によろしいでしょうか？"
+
+  line_items:
+    destroy:        "削除"
 
   number:
     currency:
@@ -43,13 +50,12 @@ jp:
   activerecord:
     models:
       order:        "ご注文"
-    attribute:
+    attributes:
       order:
         address:    "ご住所"
         name:       "お名前"
         email:      "メール"
         pay_type:   "お支払い"
-    attributes:
     errors:
       messages:
         inclusion:  "が選択されていません。"
@@ -60,3 +66,5 @@ jp:
       header:
         one:        "%{model}に、1箇所の入力エラーがあります。"
         other:      "%{model}に、%{count}箇所の入力エラーがあります。"
+
+  thanks:   "お買い上げありがとうございます。"

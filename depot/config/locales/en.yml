@@ -10,6 +10,10 @@ en:
       questions:  "Questions"
       news:       "News"
       contact:    "Contact"
+      order:      "order"
+      line_item:  "products"
+      user:       "user"
+      logout:     "logout"
 
   store:
     index:
@@ -22,6 +26,9 @@ en:
       empty:    "Empty Cart"
       checkout: "Checkout"
       confirm_html:  "Are you sure?"
+
+  line_items:
+    destroy:        "delete"
 
   number:
     currency:
@@ -50,6 +57,7 @@ en:
         one:        "1 error prohibited this %{model} from being saved:"
         other:      "%{count} errors prohibited this %{model} from being saved:"
 
+  thanks:   "Thank you for your order"
 
 
 
