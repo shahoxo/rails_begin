@@ -63,7 +63,13 @@
         <entry file="file://$PROJECT_DIR$/config/locales/es.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="12" column="31" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1348024724000" expanded="true" signature="0:1812" placeholder="es:" />
+                <marker date="1348024724000" expanded="true" signature="361:479" placeholder="store:" />
+                <marker date="1348024724000" expanded="true" signature="372:479" placeholder="index:" />
+                <marker date="1348024724000" expanded="true" signature="696:862" placeholder="number:" />
+                <marker date="1348024724000" expanded="true" signature="865:1170" placeholder="orders:" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,15 +78,20 @@
         <entry file="file://$PROJECT_DIR$/config/locales/jp.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="6" selection-start="214" selection-end="327" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1348024512000" expanded="true" signature="0:1478" placeholder="jp:" />
+                <marker date="1348024512000" expanded="true" signature="587:750" placeholder="number:" />
+                <marker date="1348024512000" expanded="true" signature="599:750" placeholder="currency:" />
+                <marker date="1348024512000" expanded="true" signature="753:981" placeholder="orders:" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="36" selection-start="1313" selection-end="1313" vertical-scroll-proportion="-16.583334">
+            <state line="26" column="38" selection-start="775" selection-end="775" vertical-scroll-proportion="0.21568628">
               <folding />
             </state>
           </provider>
@@ -95,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.css.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="layout.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="24" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.95468277">
+            <state line="73" column="38" selection-start="995" selection-end="995" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -742,14 +753,25 @@
     <entry file="file://$PROJECT_DIR$/config/locales/es.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="31" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1348024724000" expanded="true" signature="0:1812" placeholder="es:" />
+            <marker date="1348024724000" expanded="true" signature="361:479" placeholder="store:" />
+            <marker date="1348024724000" expanded="true" signature="372:479" placeholder="index:" />
+            <marker date="1348024724000" expanded="true" signature="696:862" placeholder="number:" />
+            <marker date="1348024724000" expanded="true" signature="865:1170" placeholder="orders:" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/jp.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="6" selection-start="214" selection-end="327" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1348024512000" expanded="true" signature="0:1478" placeholder="jp:" />
+            <marker date="1348024512000" expanded="true" signature="587:750" placeholder="number:" />
+            <marker date="1348024512000" expanded="true" signature="599:750" placeholder="currency:" />
+            <marker date="1348024512000" expanded="true" signature="753:981" placeholder="orders:" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -788,13 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="36" selection-start="1313" selection-end="1313" vertical-scroll-proportion="-16.583334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/store_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="8" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
@@ -804,7 +819,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="24" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.95468277">
+        <state line="73" column="38" selection-start="995" selection-end="995" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="38" selection-start="775" selection-end="775" vertical-scroll-proportion="0.21568628">
           <folding />
         </state>
       </provider>
